@@ -1,0 +1,46 @@
+body {
+	background: #e1ebf2;
+	font-family: verdana, arial;
+	font-style: normal; 
+	color:#626060; 
+}
+#mainDiv {
+	padding-left: 10%;
+	padding-right: 10%
+}
+h2 {
+	background:#e0da69;
+}
+
+#imageDiv{
+
+	width:15%;
+}
+#profilePicture{
+	width:150px;
+}
+#scrollDiv{
+	height: 30px; 
+	overflow:hidden;
+	background:lightblue;
+	color:green;
+	border: 1px solid blue;
+}
+ul {
+	type:square;
+}
+#scrollDiv p{
+	position:absolute;
+	width:100%;
+	margin:0;
+	line-height:30px;
+	text-align:center;
+	
+	-moz-transform:translateX(100%);
+	-webkit-transform:translateX(100%);
+	transform:translateX(100%);
+	
+	-moz-animation: scroll-left 15s linear infinite;
+	-webkit-animation:scroll-left 15s linear infinite;
+	
+}

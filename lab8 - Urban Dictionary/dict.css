@@ -1,0 +1,60 @@
+
+body{
+    max-width: 1024px;
+    margin: auto;
+    background-color: #b8b8b8;
+    font-family: "sans-serif","Courier New","Aerial";
+    font-size: 16px;
+    text-align: justify;
+    margin-top:0;
+    
+}
+.body{
+    background-color:#C2D8EF;
+    min-height: 600px;
+}
+strong{
+    font-size: 30px;
+    
+}
+
+h1{
+    background-color:#01002d;
+    min-height: 55px;
+    margin:0px;
+    text-align: left;
+    
+}
+#txtSearch{
+    height: 55px;
+    width: 815px;
+    font-size: large;
+	
+}
+h1 label,#btnSubmit,#txtSearch{
+    margin-top: 12px;
+}
+
+#btnSubmit{
+    width: 200px;
+    height: 63px;
+}
+.result{
+    font-family: "sans-serif","Courier New","Aerial";
+    font-size: 16px;
+    text-align: justify;
+    margin: 20px 50px;
+}
+p{
+    margin-left: 20px;
+    color:#007F0C;
+    font-size: 20px;
+}
+
+em{
+    font-weight: bold;
+}
+div.footer {
+  float:right;
+  margin:1em;
+}

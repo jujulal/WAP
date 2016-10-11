@@ -1,0 +1,32 @@
+body {
+	
+	font-family: arial, verdana; 
+	color:lightblue;
+}
+
+div { 
+
+border-width:5px;
+border-style:solid;
+}
+#mainDiv {
+	border-color:green;
+}
+
+#topDiv {
+	
+	border-color:red;
+}
+
+#topDiv div{
+	border-color:orange;
+	margin:3px;
+}
+
+#middleDiv { 
+	border-color:blue;
+}
+
+#bottomDiv {
+	border-color:blue;
+}
